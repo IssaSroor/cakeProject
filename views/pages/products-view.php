@@ -37,7 +37,7 @@
                                 <div class="product-card-custom">
                                     <div class="product-image-wrapper">
                                         <a href="product/<?= $product['product_id']; ?>">
-                                            <img src="public/images/categories/<?= $product['product_image']; ?>"
+                                            <img src="public/images/products/<?= $product['product_image']; ?>"
                                                 alt="<?= htmlspecialchars($product['product_name']); ?>">
                                         </a>
                                     </div>

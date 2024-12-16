@@ -34,7 +34,7 @@ var_dump($product);
                                                     <?php
                                                     $discountedPrice = $product['product_price'] - ($product['product_price'] * ($product['product_discount']));
                                                     ?>
-                                                    <span class="original-price"><s style="color: red;"><?= number_format($product['product_price'], 2); ?>
+                                                    <span class="original-price"><s><?= number_format($product['product_price'], 2); ?>
                                                             JD</s></span>
                                                     <span class="discounted-price"><?= number_format($discountedPrice, 2); ?>
                                                         JD</span>
